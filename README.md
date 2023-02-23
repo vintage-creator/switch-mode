@@ -52,9 +52,7 @@
 >const root = ReactDOM.createRoot(document.getElementById('root'));<br>
 >root.render(<br>
 >  <React.StrictMode>
->   <ThemeProvider>
->   <App />
->   </ThemeProvider>
+>   <ThemeProvider><App /></ThemeProvider>
 >  </React.StrictMode>
 >);<br>
 
