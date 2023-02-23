@@ -51,9 +51,9 @@
 
 >const root = ReactDOM.createRoot(document.getElementById('root'));<br>
 >root.render(<br>
->  <ThemeProvider><br>
->   <App /> 
->  </ThemeProvider><br>
+>  <ThemeProvider>
+>   <App /> //insert your parent component
+>  </ThemeProvider>
 >);<br>
 
 >// If you want to start measuring performance in your app, pass a function<br>
