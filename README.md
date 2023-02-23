@@ -51,9 +51,9 @@
 
 >const root = ReactDOM.createRoot(document.getElementById('root'));<br>
 >root.render(<br>
->  <React.StrictMode>
->   <ThemeProvider><App /></ThemeProvider>
->  </React.StrictMode>
+>  <React.StrictMode><br>
+>   <ThemeProvider> <App /> </ThemeProvider>
+>  </React.StrictMode><br>
 >);<br>
 
 >// If you want to start measuring performance in your app, pass a function<br>
