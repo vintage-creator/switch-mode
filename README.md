@@ -31,34 +31,12 @@ function App() {
       }}
     >
       <ToggleSwitch />
-      <h2> Some text here** </h2>
+      <h2> Details** </h2>
       <Main>
         "switch-mode" is a custom component used in React for enhancing user interfaces with dark/light themes
       </Main>
       <small>Created by Israel Abazie on February 22, 2023</small>
     </div>
-  );
-}
 
-export default App;</code></pre>
-
-<h4>Index.js</h4>
-<pre><code>import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import {ThemeProvider} from "switch-mode";
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <ThemeProvider>
-    <App /> {/* insert your parent component */}
-  </ThemeProvider>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();</code></pre>
 
 <p>If you encounter any bugs or issues, please refer to our <a href="https://github.com/vintage-creator/switch-mode/issues">GitHub repository</a> for queries and assistance.</p>
